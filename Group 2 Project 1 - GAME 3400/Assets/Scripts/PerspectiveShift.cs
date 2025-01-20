@@ -31,6 +31,7 @@ public class PerspectiveShift : MonoBehaviour
 
         Vector3 objectDirection = (targetObject.transform.position - playerCamera.transform.position).normalized;
 
+        //TLDR if we're looking enough away from the object
         if(Vector3.Dot(playerCamera.transform.forward, objectDirection) < -lookStrictness) {
 
             targetObject.SetActive(false);
