@@ -9,12 +9,16 @@ public class PerspectiveShift : MonoBehaviour
     public float lookStrictness = 0.1f;
     public GameObject[] objectsToAppear;
 
+    public GameObject blockerCollider;
+
     bool canShift = false;
 
     Camera playerCamera;
     void Start()
     {
         playerCamera = Camera.main;
+
+        blockerCollider.SetActive(false);
 
         targetObject.SetActive(true);
         foreach (GameObject obj in objectsToAppear) {
@@ -48,5 +52,6 @@ public class PerspectiveShift : MonoBehaviour
     
     private void OnTriggerEnter(Collider other) {
         canShift = true;
+        blockerCollider.SetActive(true);
     }
 }

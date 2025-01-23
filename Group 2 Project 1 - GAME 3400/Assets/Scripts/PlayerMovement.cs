@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
     {
         Vector3 dir = orientation.forward * Input.GetAxis("Vertical") + orientation.right * Input.GetAxis("Horizontal");
 
-        transform.Translate(dir * speed * Time.deltaTime);
+        dir = dir.normalized * speed;
+
+        rb.linearVelocity = new Vector3(dir.x, rb.linearVelocity.y, dir.z);
     }
 }
