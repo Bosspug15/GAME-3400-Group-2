@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 6779004624485988722}
   - component: {fileID: 5767203887306940901}
   - component: {fileID: 7681977572994254318}
-  - component: {fileID: 4831498066394766825}
   m_Layer: 0
   m_Name: Pine_Log
   m_TagString: Untagged
@@ -1564,28 +1563,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002398979218129075}
   m_Mesh: {fileID: 0}
---- !u!64 &4831498066394766825
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1002398979218129075}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &1281293753501138177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1599,7 +1576,6 @@ GameObject:
   - component: {fileID: 5282146052310265982}
   - component: {fileID: 3033208716031205191}
   - component: {fileID: 1611551653804236677}
-  - component: {fileID: 4339552586066543218}
   m_Layer: 0
   m_Name: 3Leaf
   m_TagString: Untagged
@@ -2003,28 +1979,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281293753501138177}
   m_Mesh: {fileID: 0}
---- !u!64 &4339552586066543218
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281293753501138177}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &2932643167472213985
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,7 +1992,6 @@ GameObject:
   - component: {fileID: 5165336065283518876}
   - component: {fileID: 4903389185694270998}
   - component: {fileID: 34961663596627184}
-  - component: {fileID: 393529880267903961}
   m_Layer: 0
   m_Name: 1Leaf
   m_TagString: Untagged
@@ -2495,28 +2448,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2932643167472213985}
   m_Mesh: {fileID: 0}
---- !u!64 &393529880267903961
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2932643167472213985}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!1 &3488226159479185740
 GameObject:
   m_ObjectHideFlags: 0
@@ -2530,7 +2461,6 @@ GameObject:
   - component: {fileID: 8187930137600865024}
   - component: {fileID: 2727479966355301768}
   - component: {fileID: 7329749887304224052}
-  - component: {fileID: 9200122121275353675}
   m_Layer: 0
   m_Name: 2Leaf
   m_TagString: Untagged
@@ -3039,28 +2969,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3488226159479185740}
-  m_Mesh: {fileID: 0}
---- !u!64 &9200122121275353675
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3488226159479185740}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
   m_Mesh: {fileID: 0}
 --- !u!1 &3869271788234426100
 GameObject:

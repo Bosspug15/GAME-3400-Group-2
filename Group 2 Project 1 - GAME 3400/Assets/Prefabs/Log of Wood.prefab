@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8721167041776652645}
   - component: {fileID: 2856851512871832335}
   - component: {fileID: 6339467763839863284}
-  - component: {fileID: 7747099149296897261}
   m_Layer: 0
   m_Name: Wood
   m_TagString: Untagged
@@ -29,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4625, y: 1, z: 0.4625}
+  m_LocalScale: {x: 0.4625, y: 1.01, z: 0.4625}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2806090813027416467}
@@ -87,29 +86,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7747099149296897261
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2197978248505998758}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &7273049928741375392
 GameObject:
   m_ObjectHideFlags: 0
@@ -121,7 +97,7 @@ GameObject:
   - component: {fileID: 5688949823990087022}
   - component: {fileID: 2847196769201630589}
   - component: {fileID: 3958244082980278779}
-  - component: {fileID: 3015500077323872724}
+  - component: {fileID: 6245655707614707123}
   m_Layer: 0
   m_Name: BarkOfWood
   m_TagString: Untagged
@@ -197,8 +173,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &3015500077323872724
-CapsuleCollider:
+--- !u!65 &6245655707614707123
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -215,10 +191,8 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000001, y: 2, z: 1.0000002}
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &8293690759034383223
 GameObject:
