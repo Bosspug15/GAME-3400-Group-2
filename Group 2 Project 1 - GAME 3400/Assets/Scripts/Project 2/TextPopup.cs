@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TextPopup : MonoBehaviour
 {
-    public string text;
+    public string[] text;
     bool hasTriggered = false;
 
 

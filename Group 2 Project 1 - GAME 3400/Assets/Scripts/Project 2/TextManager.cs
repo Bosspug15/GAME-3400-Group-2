@@ -11,8 +11,11 @@ public class TextManager : MonoBehaviour
     public float textStayLength;
     bool isShowingText = false;
     float percentageThroughText = 0;
-    public string curText;
+    public string[] curText;
+    int textIndex = 0;
     CanvasGroup group;
+
+    bool isPaused = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,36 +32,46 @@ public class TextManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(curText == "") {
+        if(curText.Length == 0) {
             return;
         }
 
         
         if(!isShowingText) {
             percentageThroughText = 0;
+            textIndex = 0;
             return;
         }
         else {
-            percentageThroughText += textScrollSpeed * Time.deltaTime;
-            text.text = curText.Substring(0,Math.Min(curText.Length, (int)(curText.Length * (percentageThroughText / 100.0))));
+            percentageThroughText += textScrollSpeed * Time.deltaTime / curText[textIndex].Length;
+            text.text = curText[textIndex].Substring(0, Math.Min(curText[textIndex].Length, (int)(curText[textIndex].Length * (percentageThroughText / 100.0))));
         }
 
-        if(percentageThroughText > 100) {
+        if(percentageThroughText >= 100 && !isPaused) {
             StartCoroutine(stopText());
         }
         
     }
 
+
+
     IEnumerator stopText() {
+        isPaused = true;
         yield return new WaitForSeconds(textStayLength);
-        isShowingText = false;
-        group.alpha = 0;
-        curText = "";
+        isPaused = false;
+        percentageThroughText = 0;
+        textIndex++;
+        if(curText.Length == textIndex) {
+            isShowingText = false;
+            group.alpha = 0;
+            curText = new string[0];
+        }
         StopCoroutine(stopText());
     }
 
 
-    public void showText(string newText) {
+    public void showText(string[] newText) {
+        textIndex = 0;
         curText = newText;
         group.alpha = 1;
         isShowingText = true;
