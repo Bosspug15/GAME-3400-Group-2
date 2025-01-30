@@ -28,7 +28,7 @@ public class TemperatureManager : MonoBehaviour
         //Stops us from losing heat if we're next to a heat source
         if(!isNearHeatSource) {
             curHeat -= heatLossRate * Time.deltaTime;
-            print("loosing");
+            //print("loosing");
         }        
 
         curHeat = Mathf.Clamp(curHeat, 0, maxHeat);

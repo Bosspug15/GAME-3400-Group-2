@@ -4,8 +4,6 @@ public class PlayerMovementWithTemp : MonoBehaviour
 {
     [SerializeField]
     private float speed = 5.0f;
-    [SerializeField]
-    TemperatureManager playerTemp;
 
     private float newSpeed;
 
@@ -24,7 +22,7 @@ public class PlayerMovementWithTemp : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        speedDebuff = playerTemp.curHeat;
+        speedDebuff = TemperatureManager.Instance.curHeat;
         if (speedDebuff <= speed)
         {
              newSpeed = speed / 2;
@@ -34,7 +32,7 @@ public class PlayerMovementWithTemp : MonoBehaviour
             newSpeed = speed - (speed / speedDebuff);
         }
 
-        Debug.Log("Speed value: " + newSpeed);
+        //Debug.Log("Speed value: " + newSpeed);
 
         if (speedDebuff != 0)
         {
