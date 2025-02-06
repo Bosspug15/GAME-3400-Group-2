@@ -5,11 +5,11 @@ public class FPSPlayerMovement : MonoBehaviour
     public CharacterController controller;
 
     public float speed = 12f;
-    public float gravity = 9.8f;
+    public float gravity = -9.8f;
     Vector3 velocity;
 
     public Transform groundCheck;
-    public float groundDistance = 0.4f;
+    public float groundDistance = 0.8f;
     public LayerMask groundMask;
     bool isGrounded;
 
