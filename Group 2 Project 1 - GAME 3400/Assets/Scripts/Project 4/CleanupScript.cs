@@ -2,24 +2,20 @@ using UnityEngine;
 
 public class CleanupScript : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public AudioClip cleanSFX;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
             //Debug.Log("Destorying Mess");
+            PlayCleanNoise();
             Destroy(gameObject);
         }
+    }
+
+    private void PlayCleanNoise()
+    {
+        AudioSource.PlayClipAtPoint(cleanSFX, transform.position);
     }
 }
