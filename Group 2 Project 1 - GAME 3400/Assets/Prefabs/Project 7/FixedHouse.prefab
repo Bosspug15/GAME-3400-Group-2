@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FixedHouse
       objectReference: {fileID: 0}
+    - target: {fileID: 8439796992618771461, guid: 4b9b6a23b3276794980bcf04977b8d8e, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 7806100501455280664, guid: 1eca9d8080a466e4db7cbb1d1b26b88c, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
