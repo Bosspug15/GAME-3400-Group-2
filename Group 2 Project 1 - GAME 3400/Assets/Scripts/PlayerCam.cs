@@ -18,6 +18,15 @@ public class PlayerCam : MonoBehaviour
 
     private void Update()
     {
+        if(Input.GetKey(KeyCode.F)) {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            return;
+        } else {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+
         float mouseX = Input.GetAxisRaw("Mouse X") * sensX;
         float mouseY = Input.GetAxisRaw("Mouse Y") * sensY;
 

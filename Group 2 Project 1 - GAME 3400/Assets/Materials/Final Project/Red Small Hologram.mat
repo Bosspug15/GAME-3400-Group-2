@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blue Hologram
+  m_Name: Red Small Hologram
   m_Shader: {fileID: -6465566751694194690, guid: c8d31237ec1dcb743ae3dd1ea0621a3c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -102,7 +102,7 @@ Material:
     - _Buldge_Frequency: 0.1
     - _Buldge_Speed: 0.03
     - _Buldge_Step: 0.6
-    - _Buldge_Strength: 0.05
+    - _Buldge_Strength: 0.001
     - _BumpScale: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
@@ -146,8 +146,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1.1449809, g: 2.969456, b: 8.99022, a: 0.39215687}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Glow_Color: {r: 3.0741496, g: 9.523776, b: 31.034275, a: 0.3921569}
-    - _Scan_Line_Color: {r: 0.7685374, g: 2.380944, b: 7.758569, a: 0.3921569}
+    - _Glow_Color: {r: 31.034271, g: 3.3756375, b: 3.0871792, a: 0.3921569}
+    - _Scan_Line_Color: {r: 7.758568, g: 0.7717948, b: 0.8439097, a: 0.3921569}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
