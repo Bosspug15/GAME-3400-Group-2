@@ -24,7 +24,7 @@ Material:
   disabledShaderPasses:
   - MOTIONVECTORS
   - DepthOnly
-  m_LockedProperties: _Buldge_Frequency
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -100,9 +100,9 @@ Material:
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _Buldge_Frequency: 0.1
-    - _Buldge_Speed: 0.03
-    - _Buldge_Step: 0.6
-    - _Buldge_Strength: 0.1
+    - _Buldge_Speed: 0.01
+    - _Buldge_Step: 0.8
+    - _Buldge_Strength: -0.01
     - _BumpScale: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
@@ -120,8 +120,8 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Glow_Falloff: 3
-    - _Line_Tiling: 8
-    - _Max_Distance_Opcaity: 0.13
+    - _Line_Tiling: 0.4
+    - _Max_Distance_Opcaity: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -146,8 +146,8 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _Glow_Color: {r: 3.0741496, g: 9.523776, b: 31.034275, a: 0.3921569}
-    - _Scan_Line_Color: {r: 0.7685374, g: 2.380944, b: 7.758569, a: 0.3921569}
+    - _Glow_Color: {r: 0.7685374, g: 2.380944, b: 7.758569, a: 0.5019608}
+    - _Scan_Line_Color: {r: 0.19213435, g: 0.595236, b: 1.9396422, a: 0.39215687}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
