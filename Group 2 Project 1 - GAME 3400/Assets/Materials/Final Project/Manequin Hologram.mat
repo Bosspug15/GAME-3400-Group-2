@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Blue Hologram
+  m_Name: Manequin Hologram
   m_Shader: {fileID: -6465566751694194690, guid: c8d31237ec1dcb743ae3dd1ea0621a3c, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -24,7 +24,7 @@ Material:
   disabledShaderPasses:
   - MOTIONVECTORS
   - DepthOnly
-  m_LockedProperties: 
+  m_LockedProperties: _Buldge_Frequency
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -102,7 +102,7 @@ Material:
     - _Buldge_Frequency: 0.1
     - _Buldge_Speed: 0.03
     - _Buldge_Step: 0.6
-    - _Buldge_Strength: 0.05
+    - _Buldge_Strength: 0.1
     - _BumpScale: 1
     - _CastShadows: 1
     - _ClearCoatMask: 0
@@ -120,10 +120,8 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Glow_Falloff: 3
-    - _Glow_Strength: 2.3
-    - _LineWidth: 0
-    - _Line_Tiling: 11
-    - _Max_Distance_Opcaity: 0.33
+    - _Line_Tiling: 8
+    - _Max_Distance_Opcaity: 0.13
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -134,7 +132,6 @@ Material:
     - _Scan_Line_Min_Distance: 2
     - _Scan_Line_Rotation: 0
     - _Scroll_Speed: 0.1
-    - _Scroll_speed: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -147,14 +144,14 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
-    - _Color: {r: 1.1449809, g: 2.969456, b: 8.99022, a: 0.39215687}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Glow_Color: {r: 3.0741496, g: 9.523776, b: 31.034275, a: 0.3921569}
     - _Scan_Line_Color: {r: 0.7685374, g: 2.380944, b: 7.758569, a: 0.3921569}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &8044243066006303429
+--- !u!114 &1153617137715768501
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
