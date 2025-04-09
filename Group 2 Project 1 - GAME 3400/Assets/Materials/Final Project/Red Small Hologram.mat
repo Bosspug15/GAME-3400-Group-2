@@ -116,19 +116,24 @@ Material:
     - _DstBlend: 10
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
+    - _Flip_Glow_Normals: 0
+    - _Float: 0
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _Glow_Falloff: 3
+    - _Glow_Falloff: 1.62
     - _Glow_Strength: 2.3
     - _LineWidth: 0
-    - _Line_Tiling: 3
+    - _Line_Tiling: 4
+    - _Max_Distance_Opcaity: 0.08
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
+    - _Scan_Line_Max_Distance: 6.71
+    - _Scan_Line_Min_Distance: 0.71
     - _Scan_Line_Rotation: 0
     - _Scroll_Speed: 0.1
     - _Scroll_speed: 0
@@ -147,7 +152,7 @@ Material:
     - _Color: {r: 1.1449809, g: 2.969456, b: 8.99022, a: 0.39215687}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Glow_Color: {r: 31.034271, g: 3.3756375, b: 3.0871792, a: 0.3921569}
-    - _Scan_Line_Color: {r: 7.758568, g: 0.7717948, b: 0.8439097, a: 0.3921569}
+    - _Scan_Line_Color: {r: 3.879284, g: 0.3858974, b: 0.42195484, a: 0.3921569}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

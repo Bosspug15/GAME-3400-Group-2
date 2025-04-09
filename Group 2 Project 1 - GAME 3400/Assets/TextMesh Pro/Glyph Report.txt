@@ -1,0 +1,14 @@
+Font: Share  Style: Bold
+Point Size: 136   Padding: 6   SP/PD Ratio: 4.4%
+
+Characters included: 144/146
+Missing characters: 2
+Excluded characters: 0
+
+Characters missing from font file:
+----------------------------------------
+ID: 8210	Hex: 2012	Char [‒]
+ID: 8239	Hex: 202F	Char [ ]
+
+Characters excluded from packing:
+----------------------------------------
