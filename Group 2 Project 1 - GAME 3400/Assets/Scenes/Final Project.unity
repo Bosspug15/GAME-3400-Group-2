@@ -7202,6 +7202,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 233b10d986cb1e145b17619a387e6ae6, type: 3}
   m_PrefabInstance: {fileID: 377024256}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &381053286 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2838862930738951734, guid: a64302e6411a8254cae6b1b1e022aff2, type: 3}
+  m_PrefabInstance: {fileID: 9009952694976955926}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &383244988
 GameObject:
   m_ObjectHideFlags: 0
@@ -86727,6 +86732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mannequin
       objectReference: {fileID: 0}
+    - target: {fileID: 5672867914946839443, guid: a64302e6411a8254cae6b1b1e022aff2, type: 3}
+      propertyPath: m_Data.m_Mid
+      value: 
+      objectReference: {fileID: 381053286}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
