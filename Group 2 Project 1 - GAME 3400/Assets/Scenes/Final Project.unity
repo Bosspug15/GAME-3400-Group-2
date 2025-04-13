@@ -5143,6 +5143,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 6e0957a057d81b24a802bf5b8690e38e, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 29e2c2a56d0d22b4e8fbe31b43766f96, type: 2}
     - target: {fileID: 919132149155446097, guid: 6e0957a057d81b24a802bf5b8690e38e, type: 3}
       propertyPath: m_Name
       value: Long Painting
@@ -28647,7 +28651,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 0fc4ddf8562611a48ad91041ffc39292, type: 2}
-  - {fileID: 2100000, guid: 30acf092fbeaa8240be31d3ed75ebd03, type: 2}
+  - {fileID: 2100000, guid: 3792ecdda107241478876b231633fa36, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -37365,7 +37369,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 0fc4ddf8562611a48ad91041ffc39292, type: 2}
-  - {fileID: 2100000, guid: 30acf092fbeaa8240be31d3ed75ebd03, type: 2}
+  - {fileID: 2100000, guid: 8d00001402286c546abc961472d559db, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
