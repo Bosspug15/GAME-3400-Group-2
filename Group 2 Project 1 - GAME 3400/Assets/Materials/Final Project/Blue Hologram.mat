@@ -124,7 +124,7 @@ Material:
     - _GlossyReflections: 0
     - _Glow_Falloff: 3
     - _Glow_Strength: 2.3
-    - _Height_Cutoff: 8.999807
+    - _Height_Cutoff: 8.999999
     - _Height_Fade: -6.6
     - _Hight_Cutoff: 3
     - _LineWidth: 0
