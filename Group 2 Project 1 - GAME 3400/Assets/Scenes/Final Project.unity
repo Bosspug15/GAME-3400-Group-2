@@ -29166,6 +29166,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 515202975}
     m_Modifications:
+    - target: {fileID: 376027924326834103, guid: a64302e6411a8254cae6b1b1e022aff2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fc7d6c4fe62d986419abe46f1b716b81, type: 2}
     - target: {fileID: 4315502229064151773, guid: a64302e6411a8254cae6b1b1e022aff2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.237
@@ -40192,7 +40196,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &970190793
 Transform:
   m_ObjectHideFlags: 0
@@ -70219,6 +70223,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 376027924326834103, guid: a64302e6411a8254cae6b1b1e022aff2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5139569502390690371, guid: a64302e6411a8254cae6b1b1e022aff2, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.6252413
@@ -70274,6 +70282,14 @@ PrefabInstance:
     - target: {fileID: 5483338806807361785, guid: a64302e6411a8254cae6b1b1e022aff2, type: 3}
       propertyPath: m_Name
       value: Mannequin (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384276333551200240, guid: a64302e6411a8254cae6b1b1e022aff2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.624
+      objectReference: {fileID: 0}
+    - target: {fileID: 7384276333551200240, guid: a64302e6411a8254cae6b1b1e022aff2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.418
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
