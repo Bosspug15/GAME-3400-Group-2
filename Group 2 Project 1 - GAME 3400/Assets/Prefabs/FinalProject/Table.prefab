@@ -85,7 +85,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 0.88106227, y: 0.37078866}
+  m_AreaSize: {x: 1.45, y: 0.53}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -206,7 +206,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 0.9, y: 0.4}
+  m_AreaSize: {x: 1.45, y: 0.55}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -327,7 +327,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 0.9, y: 0.4}
+  m_AreaSize: {x: 1.45, y: 0.53}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -448,7 +448,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 0.9, y: 0.4}
+  m_AreaSize: {x: 1.42, y: 0.49}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -668,7 +668,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 0.88106227, y: 0.37078866}
+  m_AreaSize: {x: 1.42, y: 0.49}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -789,7 +789,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 0.88106227, y: 0.37078866}
+  m_AreaSize: {x: 1.48, y: 0.52}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -943,7 +943,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 0.88106227, y: 0.37078866}
+  m_AreaSize: {x: 1.45, y: 0.55}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -1064,7 +1064,7 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 2
   m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 0.9, y: 0.4}
+  m_AreaSize: {x: 1.48, y: 0.52}
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
@@ -1109,36 +1109,48 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 134
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 134
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 164.9
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 25.63
+      value: 1.2999992
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: -0.0875006
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4.34
+      value: -4.5360003
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7071067
+      value: 0.70706415
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.7071068
+      value: -0.70705867
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.008012734
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: -0.008012945
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1146,7 +1158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -1.299
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: b0755d6453deee54eb4cd561fba81de7, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'

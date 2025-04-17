@@ -123,7 +123,7 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Glow_Falloff: 5
-    - _Height_Cutoff: 8.999984
+    - _Height_Cutoff: 2.1395323
     - _Height_Fade: 0.16
     - _Hight_Cutoff: 7.81
     - _Line_Tiling: 9.4
