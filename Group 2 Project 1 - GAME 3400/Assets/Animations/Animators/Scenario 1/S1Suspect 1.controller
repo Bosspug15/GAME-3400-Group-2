@@ -28,7 +28,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Suspect 1
+  m_Name: S1Suspect 1
   serializedVersion: 5
   m_AnimatorParameters: []
   m_AnimatorLayers:
@@ -51,7 +51,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Suspect 1 Scenario 2 Pose
+  m_Name: Suspect 1 Scenario 1 Pose
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -64,7 +64,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 9819b824ea415f44780a4f09e07bc79d, type: 2}
+  m_Motion: {fileID: 7400000, guid: bf013dc6da8d7994ebe082c4cac4f49c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
