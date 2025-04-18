@@ -90,7 +90,7 @@ public class Timeline : MonoBehaviour
 
         int targetTime = snapshot.hour * 60 + snapshot.minute;
 
-        while(timeSinceStart <= animationLength) {
+        while(timeSinceStart <= animationLength * 2) {
             float curveValue = hologramAppearAnimation.Evaluate(timeSinceStart / (animationLength * 2));
 
             
